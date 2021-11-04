@@ -16,4 +16,10 @@ public class GreetingController {
 	public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
 		return new Greeting(counter.incrementAndGet(), String.format(template, name));
 	}
+	
+	@GetMapping("/api")
+	public String getApiVersion() {
+		String version = "v0.0.1";
+		return version;
+	}
 }
