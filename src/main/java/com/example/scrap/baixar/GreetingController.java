@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GreetingController {
 
-	private static final String template = "Wellcome, %s!";
+	private static final String template = "Hello, %s!";
 	private final AtomicLong counter = new AtomicLong();
 
 	@GetMapping("/greeting")
@@ -18,7 +18,7 @@ public class GreetingController {
 	}
 	
 	@GetMapping("/api")
-	public Greeting greeting() {
+	public String getApiVersion() {
 		String version = "v0.0.1";
 		return version;
 	}
