@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@Import(value = {OrgsController.class})
+@ComponentScan({"com.example.scrap.run"})
 public class RunApplication {
 
 	public static void main(String[] args) {
