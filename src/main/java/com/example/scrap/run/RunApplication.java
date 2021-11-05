@@ -1,13 +1,13 @@
-package com.example.scrap.baixar;
+package com.example.scrap.run;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BaixarApplication {
+public class RunApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BaixarApplication.class, args);
+		SpringApplication.run(RunApplication.class, args);
 	}
 
 }
