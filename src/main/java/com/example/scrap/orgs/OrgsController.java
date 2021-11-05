@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+@ComponentScan
 @RestController
 @RequestMapping("/api/orgs")
 public class OrgsController {
