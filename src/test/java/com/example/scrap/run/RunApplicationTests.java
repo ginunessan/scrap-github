@@ -1,15 +1,18 @@
-package com.example.scrap.baixar;
+package com.example.scrap.run;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import com.example.scrap.run.RunApplication;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
-class BaixarApplicationTests {
+class RunApplicationTests {
 	
 	@Autowired
-	private BaixarApplication controller;
+	private RunApplication controller;
 
 	@Test
 	void contextLoads() {
