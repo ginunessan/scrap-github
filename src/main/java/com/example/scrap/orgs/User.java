@@ -1,5 +1,8 @@
 package com.example.scrap.orgs;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class User {
 
 	private String login;
